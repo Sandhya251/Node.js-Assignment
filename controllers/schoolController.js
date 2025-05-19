@@ -12,7 +12,7 @@ exports.addSchool = async (req, res) => {
   try {
     await db.execute(
       'INSERT INTO schools (name, address, latitude, longitude) VALUES (?, ?, ?, ?)',
-      [name, address, latitude, longitude]
+      [name, address, parseFloat(latitude),parseFloat(longitude) ]
     );
     res.status(201).json({ message: 'School added successfully' });
   } catch (err) {
