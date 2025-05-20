@@ -6,8 +6,8 @@ A Node.js REST API built with Express.js and MySQL to manage school data. It sup
 
 # Live API
 
-Deployed on [Render](https://nodejs-school-api.onrender.com)  
-(Replace with your actual Render URL after deployment)
+Deployed on [Railway] https://nodejs-assignment-production-9889.up.railway.app
+
 
 ---------------------
 # Tech Stack
