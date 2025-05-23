@@ -67,3 +67,6 @@ npm start
 # Postman Collection:
 https://drive.google.com/file/d/1HzKDXHIVeQNCEVqgO89tGMq2UZRKq8Jo/view?usp=sharing
 
+# Known Issues
+ Database Connection Error on Railway Deployment
+Currently, the application fails to connect to the MySQL database when deployed on Railway.
