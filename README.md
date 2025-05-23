@@ -6,8 +6,7 @@ A Node.js REST API built with Express.js and MySQL to manage school data. It sup
 
 # Live API
 
-Deployed on [Railway] https://nodejs-assignment-production-9889.up.railway.app
-
+Deployed on [Railway] https://nodejs-assignment-production-72af.up.railway.app
 
 ---------------------
 # Tech Stack
@@ -15,7 +14,6 @@ Deployed on [Railway] https://nodejs-assignment-production-9889.up.railway.app
 - **Node.js**
 - **Express.js**
 - **MySQL**
-- **Joi** for validation
 - **Dotenv** for environment configuration
 
 ---------------------
