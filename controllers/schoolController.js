@@ -8,7 +8,6 @@ exports.addSchool = async (req, res) => {
   if (!name || !address || isNaN(latitude) || isNaN(longitude)) {
     return res.status(400).json({ error: 'All fields are required and must be valid.' });
   }
-
   try {
     await db.execute(
       'INSERT INTO schools (name, address, latitude, longitude) VALUES (?, ?, ?, ?)',
@@ -27,7 +26,6 @@ exports.listSchools = async (req, res) => {
   if (isNaN(latitude) || isNaN(longitude)) {
     return res.status(400).json({ error: 'Latitude and longitude must be valid numbers' });
   }
-
   try {
     const [schools] = await db.execute('SELECT * FROM schools');
 
