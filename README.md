@@ -52,6 +52,8 @@ longitude: User's longitude
 Example:
 http://localhost:3000/listSchools?latitude=40.730610&longitude=-73.935242
 
+----------------------
+
 # Local Setup
 git clone https://github.com/Sandhya251/Node.js-Assignment.git
 cd Node.js-Assignment
@@ -62,11 +64,9 @@ npm install
 # Create a .env file
 
 #  Start the server
-npm start
+node server.js
+
+------------------------
 
 # Postman Collection:
 https://drive.google.com/file/d/1HzKDXHIVeQNCEVqgO89tGMq2UZRKq8Jo/view?usp=sharing
-
-# Known Issues
- Database Connection Error on Railway Deployment
-Currently, the application fails to connect to the MySQL database when deployed on Railway.
